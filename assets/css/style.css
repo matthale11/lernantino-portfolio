@@ -1,9 +1,11 @@
 /* Universal selectors */
 * {
-    
+    background-color: white;   
 }
 /* Element selectors */
-
+h1 {
+    color: red;
+}
 /* Class selectors */
 
 /* ID selectors */
