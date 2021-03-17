@@ -1,7 +1,7 @@
 # Lernantino Portfolio
 
-Description: This site provides a personal background as well as links to several examples of Lernantino's portfolio work.
+Description: This site provides a personal background as well as links to several examples of Lernantino's portfolio work. This site includes Flexbox formatting, background images, and lots of CSS for style. Enjoy!
 
-![Site Screenshot](./image/screenshot.png)
+![Site Screenshot](./assets/image/screenshot.png)
 
 Link: [Lernantino Portfolio](https://matthale11.github.io/lernantino-portfolio/)
