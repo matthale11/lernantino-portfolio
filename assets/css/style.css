@@ -74,7 +74,6 @@ footer a {
 }
 
 /* ID selectors */
-
 #hero {
     width: 100%;
     height: auto;
@@ -117,8 +116,4 @@ footer a {
     background-image: url(assets/images/run-buddy.jpg);
 }
 
-
-
-
 /* Media query */
-
