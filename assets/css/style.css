@@ -54,11 +54,17 @@ h4 {
     color: rgb(78, 78, 78);
     font-size: 20px;
     font-weight: bold;
+    width: 170px;
     background-color: turquoise;
+    position: relative;
+    bottom: -100px;
 }
 h5 {
     color: rgb(78, 78, 78);
+    width: 170px;
     background-color: turquoise;
+    position: relative;
+    bottom: -100px;
 }
 footer {
     display: flex;
@@ -99,7 +105,7 @@ footer a {
 #surf-report {
     border: 5px solid turquoise;
     margin: 10px;
-    flex-basis: calc(100% - 20px);
+    flex-basis: calc(100% - 30px);
     height: 300px;
     background-image: url("../images/surf-report.jpg");
     background-position: center;
@@ -108,7 +114,7 @@ footer a {
 #led-wall {
     border: 5px solid turquoise;
     margin: 10px;
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 30px);
     height: 150px;
     background-image: url("../images/led-wall.jpg");
     background-size: cover;
@@ -116,7 +122,7 @@ footer a {
 #calculator {
     border: 5px solid turquoise;
     margin: 10px;
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 30px);
     height: 150px;
     background-image: url("../images/calculator.jpg");
     background-size: cover;
@@ -124,7 +130,7 @@ footer a {
 #pastel-puzzels {
     border: 5px solid turquoise;
     margin: 10px;
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 30px);
     height: 150px;
     background-image: url("../images/pastel-puzzels.png");
     background-size: cover;
@@ -132,7 +138,7 @@ footer a {
 #run-buddy {
     border: 5px solid turquoise;
     margin: 10px;
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 30px);
     height: 150px;
     background-image: url("../images/run-buddy.jpg");
     background-size: cover;
