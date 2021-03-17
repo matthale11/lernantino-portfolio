@@ -14,6 +14,7 @@ h1 {
     color: rgb(78, 78, 78);
     background-color: turquoise;
     font-size: xx-large;
+    font-weight: bold;
     padding: 6px 12px 6px 40px;
     margin: 1px 500px 8px 0px;
 }
@@ -24,13 +25,99 @@ header a {
     font-size: larger;
     margin: 5px;
     padding: 6px;
-    border-bottom: 4px solid turquoise;
+    border-bottom: 3px solid turquoise;
+}
+h3 {
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: turquoise;
+}
+h4 {
+    color: rgb(78, 78, 78);
+    background-color: turquoise;
+    padding: 4px;
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    top: -60px;
+    right: -700px;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid rgb(78, 78, 78);
+    padding: 4px;
+    margin: 3px 20px 3px 20px;
 }
 
 /* Class selectors */
-
+.left {
+    text-align: right;
+    text-align: top;
+    width: 25%;
+    border-right: 3px solid rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+}
+.right {
+    width: 75%;
+    float: right;
+    text-align: top;
+}
 
 /* ID selectors */
+
+#hero {
+    width: 100%;
+    height: auto;
+}
+#about-me {
+    display: flex;
+    align-items: center;
+}
+#work {
+    display: flex;
+    align align-items: center;
+}
+#work p {
+    color: rgb(78, 78, 78);
+    background-color: turquoise;
+}
+#surf-report {
+    border: 5px solid turquoise;
+    margin: 5px;
+    background-image: url(assets/images/surf-report.jpg);
+}
+#led-wall {
+    border: 5px solid turquoise;
+    margin: 5px;
+    background-image: url(assets/images/led-wall.jpg);
+}
+#calculator {
+    border: 5px solid turquoise;
+    margin: 5px;
+    background-image: url(assets/images/caculator.jpg);
+}
+#pastel-puzzels {
+    border: 5px solid turquoise;
+    margin: 5px;
+    background-image: url(assets/images/pastel-puzzels.png);
+}
+#run-buddy {
+    border: 5px solid turquoise;
+    margin: 5px;
+    background-image: url(assets/images/run-buddy.jpg);
+}
+
+
 
 
 /* Media query */
