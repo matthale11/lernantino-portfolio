@@ -1,8 +1,8 @@
-/* Universal selectors */
+/* Universal selector is used to define font for this site */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-/* Element selectors */
+/* Element selector formatting for the header, all headings, footer, and links */
 header {
     height: 60px;
     background-color: rgb(78, 78, 78);
@@ -78,14 +78,14 @@ footer a {
     margin: 3px 20px 3px 20px;
 }
 
-/* Class selectors */
+/* This section defines the width, orientation and alignment for all the items on the right side of the page. */
 .right {
     width: 75vw;
     float: right;
     text-align: top;
 }
  
-/* ID selectors */
+/* This sizes the hero image at the top and applies Flexbox attributes to the About Me and Work sections. */
 #hero {
     width: 100%;
     height: auto;
@@ -99,6 +99,8 @@ footer a {
 #work {
     display: flex;
 }
+
+/* These items create a flex container for the the portfolio items as well as providing formatting and background images. */
 #tiles {
     display: flex;
     flex-flow: row wrap;
@@ -144,4 +146,18 @@ footer a {
     background-size: cover;
 }
 
-/* Media query */
+/* Media query resizes tiles when resolution is below 700 pixels in width*/
+@media screen and (max-width: 700px) {
+    #led-wall {
+        flex-basis: calc(100% - 30px);
+    }
+    #calculator {
+        flex-basis: calc(100% - 30px);
+    }
+    #pastel-puzzels {
+        flex-basis: calc(100% - 30px);
+    }
+    #run-buddy {
+        flex-basis: calc(100% - 30px);
+    }
+}
